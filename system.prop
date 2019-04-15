@@ -150,16 +150,12 @@ persist.vendor.delta_time.enable=true
 # IMS
 service.qti.ims.enabled=1
 persist.radio.ims.cmcc=true
-persist.radio.calls.on.ims=true
-persist.radio.jbims=1
 persist.radio.VT_ENABLE=1
 persist.radio.VT_HYBRID_ENABLE=1
 persist.radio.schd.cache=3500
-persist.dbg.ims_volte_enable=1
 persist.dbg.volte_avail_ovr=1
 persist.dbg.vt_avail_ovr=1
-persist.radio.videopause.mode=1
-persist.data.iwlan.enable=true
+persist.dbg.wfc_avail_ovr=1
 persist.vendor.qti.telephony.vt_cam_interface=1
 
 # RIL
@@ -186,4 +182,3 @@ persist.vendor.radio.sib16_support=1
 persist.vendor.radio.aosp_usr_pref_sel=true
 ril.ecclist=000,08,100,101,102,110,112,118,119,120,122,911,999
 ril.subscription.types=NV,RUIM
-telephony.lteOnCdmaDevice=1
