@@ -640,4 +640,7 @@
          For this time after the screen turns on, the Power Manager
          will not debounce light sensor readings -->
     <integer name="config_lightSensorWarmupTime">200</integer>
+
+    <!-- Screen off delay in millisecond -->
+    <integer name="config_screen_off_delay">0</integer>
 </resources>
